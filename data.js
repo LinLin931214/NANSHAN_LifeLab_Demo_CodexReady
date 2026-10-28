@@ -1,6 +1,6 @@
 window.APP_DATA = {
   "meta": {
-    "version": "8.0.0",
+    "version": "8.1.0",
     "updated": "2026-10-27",
     "productInfoUpdated": "2026-10-27",
     "currency": "NT$"
@@ -853,7 +853,8 @@ window.APP_DATA = {
     "salePrice": 6000000,
     "saleFeeRate": 0.02,
     "annualEventChance": 0.22,
-    "stageEventChance": 0.45
+    "stageEventChance": 0.45,
+    "uninsuredStageEventChance": 0.65
   },
   "catalog": {
     "car": {
