@@ -1,0 +1,6 @@
+NANSHAN LifeLab Demo
+1. 雙擊 index.html。
+2. 改事件／金額／商品：data.js。
+3. 用 Codex：AGENTS.md + CODEX_PROMPTS.md。
+4. 上網：DEPLOY_GITHUB_PAGES.md。
+5. 無資料庫，刷新即清空。
