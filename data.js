@@ -1,6 +1,6 @@
 window.APP_DATA = {
   "meta": {
-    "version": "8.1.0",
+    "version": "9.0.0",
     "updated": "2026-10-27",
     "productInfoUpdated": "2026-10-27",
     "currency": "NT$"
@@ -15,7 +15,7 @@ window.APP_DATA = {
       "title": "通勤路上的意外",
       "story": "上班／上課途中發生意外，造成骨折、短期住院與復健，原本的打工與行程也被迫暫停。",
       "impact": "醫療支出、復健、自費項目與收入中斷可能同時出現。",
-      "baseCost": 180000,
+      "baseCost": 650000,
       "preparedCost": 45000,
       "prepInvestment": 28000,
       "product": {
@@ -39,7 +39,7 @@ window.APP_DATA = {
       "title": "突然需要住院手術",
       "story": "某次身體不適檢查後需要接受住院與手術。除了健保外，仍可能出現自費醫材、病房差額與休養期間支出。",
       "impact": "醫療費不是唯一成本，請假與休養也可能影響現金流。",
-      "baseCost": 320000,
+      "baseCost": 950000,
       "preparedCost": 85000,
       "prepInvestment": 95000,
       "product": {
@@ -63,7 +63,7 @@ window.APP_DATA = {
       "title": "重大傷病打亂生活",
       "story": "健康檢查後進一步確診需要長期治療的重大傷病，治療之外，工作安排與家庭責任也同步受到影響。",
       "impact": "一次性的醫療費、長期治療、生活費與收入中斷可能疊加。",
-      "baseCost": 900000,
+      "baseCost": 2600000,
       "preparedCost": 260000,
       "prepInvestment": 210000,
       "product": {
@@ -87,7 +87,7 @@ window.APP_DATA = {
       "title": "退休生活的額外資金需求",
       "story": "退休階段需要一筆額外資金，用於無障礙住家調整與額外照護安排。這筆事件費用不包含已按月計入的基本生活費、旅費或一般住宅維護費。",
       "impact": "長壽本身就是一種需要規劃的財務風險。",
-      "baseCost": 1200000,
+      "baseCost": 1800000,
       "preparedCost": 650000,
       "prepInvestment": 420000,
       "product": {
@@ -109,7 +109,7 @@ window.APP_DATA = {
       "title": "需要長期照顧的那一天",
       "story": "因疾病、意外或老化而長期需要他人協助日常生活，除了照護費用，也可能讓家人投入大量時間與工作調整。",
       "impact": "長照常是長期、反覆、家庭共同承擔的風險。",
-      "baseCost": 780000,
+      "baseCost": 3200000,
       "preparedCost": 220000,
       "prepInvestment": 260000,
       "product": {
@@ -131,7 +131,7 @@ window.APP_DATA = {
       "title": "感冒門診與休養",
       "story": "這個月感冒看診，產生門診與交通支出；本遊戲的住院方案不涵蓋一般門診。",
       "impact": "影響本月收支與存款。",
-      "baseCost": 2500,
+      "baseCost": 30000,
       "preparedCost": 2500,
       "prepInvestment": 0,
       "coverages": {},
@@ -151,7 +151,7 @@ window.APP_DATA = {
       "title": "突發闌尾炎手術",
       "story": "突然腹痛需要手術及短期住院，產生自費手術與病房費用。",
       "impact": "影響本月收支與存款。",
-      "baseCost": 120000,
+      "baseCost": 700000,
       "preparedCost": 14000,
       "prepInvestment": 0,
       "coverages": {
@@ -175,7 +175,7 @@ window.APP_DATA = {
       "title": "癌症治療的第一階段",
       "story": "需要進行癌症療程與住院治療，療程支出讓原本的預算承受壓力。",
       "impact": "影響本月收支與存款。",
-      "baseCost": 600000,
+      "baseCost": 2400000,
       "preparedCost": 40000,
       "prepInvestment": 0,
       "coverages": {
@@ -241,7 +241,7 @@ window.APP_DATA = {
       "title": "樓梯踩空，骨折住院",
       "story": "一個踩空，骨折、住院和復健接踵而來。原本留給生活的錢，突然變成醫療帳單。",
       "impact": "影響現金餘額",
-      "baseCost": 95000,
+      "baseCost": 450000,
       "preparedCost": 95000,
       "prepInvestment": 0,
       "coverages": {
@@ -265,7 +265,7 @@ window.APP_DATA = {
       "title": "球場上的韌帶受傷",
       "story": "一場球賽扭傷韌帶，需要手術與復健，醫療費讓你措手不及。",
       "impact": "影響現金餘額",
-      "baseCost": 160000,
+      "baseCost": 650000,
       "preparedCost": 160000,
       "prepInvestment": 0,
       "coverages": {
@@ -289,7 +289,7 @@ window.APP_DATA = {
       "title": "料理時不慎燙傷",
       "story": "熱油濺出造成燙傷，需要傷口治療與回診，累積一筆意外支出。",
       "impact": "影響現金餘額",
-      "baseCost": 45000,
+      "baseCost": 280000,
       "preparedCost": 45000,
       "prepInvestment": 0,
       "coverages": {
@@ -311,7 +311,7 @@ window.APP_DATA = {
       "title": "單車摔倒，急診與治療",
       "story": "騎車時失去平衡摔倒，需要急診處置與後續治療。",
       "impact": "影響現金餘額",
-      "baseCost": 35000,
+      "baseCost": 220000,
       "preparedCost": 35000,
       "prepInvestment": 0,
       "coverages": {
@@ -333,7 +333,7 @@ window.APP_DATA = {
       "title": "一聲碰撞，修車帳單來了",
       "story": "車對車碰撞讓愛車受損，需要支付自己的車體維修費；本事件不含對方損害。",
       "impact": "影響現金餘額",
-      "baseCost": 120000,
+      "baseCost": 450000,
       "preparedCost": 120000,
       "prepInvestment": 0,
       "coverages": {
@@ -355,7 +355,7 @@ window.APP_DATA = {
       "title": "停車場的碰撞損傷",
       "story": "在停車場與另一台已確認身分的汽車擦撞，板金與零件需要維修。",
       "impact": "影響現金餘額",
-      "baseCost": 70000,
+      "baseCost": 250000,
       "preparedCost": 70000,
       "prepInvestment": 0,
       "coverages": {
@@ -377,7 +377,7 @@ window.APP_DATA = {
       "title": "住宅火災，生活被打亂",
       "story": "火災造成住宅損害，需要修復建物與裝潢。支出限於本事件的建物修復假設。",
       "impact": "影響現金餘額",
-      "baseCost": 300000,
+      "baseCost": 1600000,
       "preparedCost": 300000,
       "prepInvestment": 0,
       "coverages": {
@@ -395,7 +395,7 @@ window.APP_DATA = {
       "emoji": "🥾",
       "title": "登山滑倒，需要救援與治療",
       "story": "假日登山踩空，除了急診與醫療，還有自付的交通救援支出。",
-      "baseCost": 110000,
+      "baseCost": 780000,
       "coverages": {
         "accident": 65000,
         "hospital": 20000
@@ -418,7 +418,7 @@ window.APP_DATA = {
       "emoji": "🩹",
       "title": "玻璃割傷，急診縫合",
       "story": "打掃時被碎玻璃割傷，急診處理與回診累積一筆費用。",
-      "baseCost": 18000,
+      "baseCost": 100000,
       "coverages": {
         "accident": 12000
       },
@@ -440,7 +440,7 @@ window.APP_DATA = {
       "emoji": "🦴",
       "title": "雨天滑倒，手腕骨折",
       "story": "下雨天在濕滑路面摔倒，骨折治療與復健需要花錢。",
-      "baseCost": 85000,
+      "baseCost": 420000,
       "coverages": {
         "accident": 50000,
         "hospital": 15000
@@ -463,7 +463,7 @@ window.APP_DATA = {
       "emoji": "🛵",
       "title": "機車擦撞，住院休養",
       "story": "通勤時遭遇擦撞，需要住院、復健與部分自費醫材。",
-      "baseCost": 210000,
+      "baseCost": 1100000,
       "coverages": {
         "accident": 100000,
         "hospital": 60000,
@@ -487,7 +487,7 @@ window.APP_DATA = {
       "emoji": "👁️",
       "title": "運動碰傷眼睛",
       "story": "運動時遭碰撞，眼部檢查、處置與後續回診成為意外支出。",
-      "baseCost": 60000,
+      "baseCost": 480000,
       "coverages": {
         "accident": 40000
       },
@@ -509,7 +509,7 @@ window.APP_DATA = {
       "emoji": "🏀",
       "title": "肩膀脫臼與復健",
       "story": "打球跌倒導致肩膀脫臼，治療後還有一段復健療程。",
-      "baseCost": 55000,
+      "baseCost": 320000,
       "coverages": {
         "accident": 35000
       },
@@ -531,7 +531,7 @@ window.APP_DATA = {
       "emoji": "🚙",
       "title": "車對車追撞，維修費增加",
       "story": "與另一輛已確認身分的汽車碰撞，自己的車需要維修。此費用不含賠償對方。",
-      "baseCost": 180000,
+      "baseCost": 650000,
       "coverages": {
         "car": 1
       },
@@ -553,7 +553,7 @@ window.APP_DATA = {
       "emoji": "🏡",
       "title": "火災煙損，住宅需要修復",
       "story": "鄰近火災波及建物與裝潢，清理及修復是一筆額外支出。",
-      "baseCost": 220000,
+      "baseCost": 950000,
       "coverages": {
         "house": 1
       },
@@ -566,6 +566,103 @@ window.APP_DATA = {
       "product": {
         "category": "意外保障",
         "example": "請查看官方資訊",
+        "note": "遊戲假設",
+        "url": "https://www.nanshanlife.com.tw/nanshanlife/products-health/"
+      }
+    },
+    {
+      "id": "stroke",
+      "emoji": "🧠",
+      "title": "腦中風後的治療與復健",
+      "story": "緊急治療後需要長期復健與照護，醫療與照護帳單持續累積。",
+      "baseCost": 3600000,
+      "coverages": {
+        "critical": 900000,
+        "hospital": 300000,
+        "ltc": 500000
+      },
+      "monthlyPremium": 0,
+      "age": 0,
+      "stage": "高額風險",
+      "impact": "高額自付支出",
+      "preparedCost": 3600000,
+      "prepInvestment": 0,
+      "product": {
+        "category": "相關保障",
+        "example": "可進一步了解官方商品",
+        "note": "遊戲假設",
+        "url": "https://www.nanshanlife.com.tw/nanshanlife/products-health/"
+      }
+    },
+    {
+      "id": "cardiac",
+      "emoji": "🫀",
+      "title": "突發心臟疾病需要手術",
+      "story": "突然住院並接受心臟治療，自費醫材、手術與後續復原帶來高額支出。",
+      "baseCost": 2500000,
+      "coverages": {
+        "critical": 700000,
+        "hospital": 250000,
+        "surgery": 180000
+      },
+      "monthlyPremium": 0,
+      "age": 0,
+      "stage": "高額風險",
+      "impact": "高額自付支出",
+      "preparedCost": 2500000,
+      "prepInvestment": 0,
+      "product": {
+        "category": "相關保障",
+        "example": "可進一步了解官方商品",
+        "note": "遊戲假設",
+        "url": "https://www.nanshanlife.com.tw/nanshanlife/products-health/"
+      }
+    },
+    {
+      "id": "chronic_care",
+      "emoji": "🧑‍⚕️",
+      "title": "慢性病併發症，照護成為長期支出",
+      "story": "反覆治療與生活協助讓支出拉長，原本的存款需要支撐更久。",
+      "baseCost": 3000000,
+      "coverages": {
+        "critical": 650000,
+        "hospital": 200000,
+        "ltc": 700000
+      },
+      "monthlyPremium": 0,
+      "age": 0,
+      "stage": "高額風險",
+      "impact": "高額自付支出",
+      "preparedCost": 3000000,
+      "prepInvestment": 0,
+      "product": {
+        "category": "相關保障",
+        "example": "可進一步了解官方商品",
+        "note": "遊戲假設",
+        "url": "https://www.nanshanlife.com.tw/nanshanlife/products-health/"
+      }
+    },
+    {
+      "id": "major_trauma",
+      "emoji": "🚑",
+      "title": "嚴重交通傷害與多次手術",
+      "story": "一次意外帶來多次手術、復健與照護，本關以一次性合計費用呈現。",
+      "baseCost": 2200000,
+      "coverages": {
+        "accident": 350000,
+        "hospital": 300000,
+        "surgery": 150000,
+        "daily": 30000
+      },
+      "monthlyPremium": 0,
+      "age": 0,
+      "stage": "高額風險",
+      "impact": "高額自付支出",
+      "preparedCost": 2200000,
+      "prepInvestment": 0,
+      "product": {
+        "category": "相關保障",
+        "example": "可進一步了解官方商品",
         "note": "遊戲假設",
         "url": "https://www.nanshanlife.com.tw/nanshanlife/products-health/"
       }
@@ -715,7 +812,8 @@ window.APP_DATA = {
       "name": "20+｜起步",
       "pool": [
         "accident",
-        "minor"
+        "minor",
+        "major_trauma"
       ]
     },
     {
@@ -723,7 +821,9 @@ window.APP_DATA = {
       "name": "30+｜成長",
       "pool": [
         "hospital",
-        "surgery_event"
+        "surgery_event",
+        "major_trauma",
+        "cardiac"
       ]
     },
     {
@@ -732,7 +832,9 @@ window.APP_DATA = {
       "pool": [
         "hospital",
         "critical",
-        "surgery_event"
+        "surgery_event",
+        "cardiac",
+        "cancer_event"
       ]
     },
     {
@@ -741,7 +843,10 @@ window.APP_DATA = {
       "pool": [
         "critical",
         "cancer_event",
-        "hospital"
+        "hospital",
+        "stroke",
+        "cardiac",
+        "chronic_care"
       ]
     },
     {
@@ -750,7 +855,10 @@ window.APP_DATA = {
       "pool": [
         "retirement",
         "cancer_event",
-        "hospital"
+        "hospital",
+        "stroke",
+        "chronic_care",
+        "ltc"
       ]
     },
     {
@@ -759,7 +867,10 @@ window.APP_DATA = {
       "pool": [
         "ltc",
         "hospital",
-        "critical"
+        "critical",
+        "stroke",
+        "chronic_care",
+        "ltc"
       ]
     }
   ],
@@ -771,9 +882,9 @@ window.APP_DATA = {
     "retirementAge": 60,
     "pensionRatio": 0.4,
     "travelTaskChance": 0.3,
-    "travelAccidentChance": 0.15,
+    "travelAccidentChance": 0.35,
     "tripCost": 30000,
-    "travelMedicalCost": 90000,
+    "travelMedicalCost": 450000,
     "travelPlans": [
       {
         "id": "none",
@@ -784,14 +895,14 @@ window.APP_DATA = {
       {
         "id": "basic",
         "name": "海外醫療基本方案",
-        "premium": 500,
-        "benefit": 70000
+        "premium": 1500,
+        "benefit": 180000
       },
       {
         "id": "plus",
         "name": "海外醫療加強方案",
-        "premium": 1000,
-        "benefit": 85000
+        "premium": 3000,
+        "benefit": 360000
       }
     ],
     "car": {
@@ -854,7 +965,73 @@ window.APP_DATA = {
     "saleFeeRate": 0.02,
     "annualEventChance": 0.22,
     "stageEventChance": 0.45,
-    "uninsuredStageEventChance": 0.65
+    "uninsuredStageEventChance": 0.65,
+    "stageRiskRates": [
+      0.65,
+      0.7,
+      0.76,
+      0.8,
+      0.85,
+      0.88
+    ],
+    "uninsuredRiskRates": [
+      0.82,
+      0.86,
+      0.9,
+      0.93,
+      0.95,
+      0.96
+    ],
+    "premiumAgeFactors": [
+      1,
+      1.15,
+      1.5,
+      2.1,
+      3,
+      4.2
+    ],
+    "medicalAgeFactors": [
+      1,
+      1.1,
+      1.25,
+      1.45,
+      1.7,
+      2
+    ],
+    "coverageTiers": [
+      {
+        "id": "base",
+        "name": "維持基本保障",
+        "fee": 1,
+        "benefit": 1
+      },
+      {
+        "id": "boost",
+        "name": "加重保障",
+        "fee": 1.7,
+        "benefit": 1.6
+      },
+      {
+        "id": "max",
+        "name": "高額保障",
+        "fee": 2.8,
+        "benefit": 2.4
+      }
+    ],
+    "severityLevels": [
+      {
+        "name": "一般衝擊",
+        "factor": 1
+      },
+      {
+        "name": "較重衝擊",
+        "factor": 1.35
+      },
+      {
+        "name": "重大衝擊",
+        "factor": 1.8
+      }
+    ]
   },
   "catalog": {
     "car": {
@@ -1049,6 +1226,10 @@ window.APP_DATA = {
     "bike": "cycling",
     "scooter": "cycling",
     "retirement": "peace-senior",
-    "home": "peace-family"
+    "home": "peace-family",
+    "stroke": "hospital",
+    "cardiac": "hospital",
+    "chronic_care": "hospital",
+    "major_trauma": "cycling"
   }
 };
