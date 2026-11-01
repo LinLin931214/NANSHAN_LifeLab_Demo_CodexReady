@@ -1,5 +1,14 @@
 (() => {
   const D = window.APP_DATA, E = D.economy, app = document.querySelector('#app');
+  let textSize = 'medium';
+  try { const saved = window.localStorage?.getItem('lifelab-text-size'); if (['small','medium','large'].includes(saved)) textSize = saved; } catch (_) {}
+  function applyTextSize(size) {
+    if (!['small','medium','large'].includes(size)) return;
+    textSize = size;
+    document.documentElement?.setAttribute('data-text-size', size);
+    try { window.localStorage?.setItem('lifelab-text-size', size); } catch (_) {}
+    document.querySelectorAll?.('[data-action="text-size"]').forEach(el => el.setAttribute('aria-pressed', String(el.dataset.size === size)));
+  }
   const allTimeline = [...D.timeline];
   const startStage = () => state.profile.startStage || 0;
   const state = { screen: 'home', index: 0, run: [], decisions: [],
@@ -10,7 +19,7 @@
   const initialPlanPremium = p => Math.round(p.monthlyPremium * E.premiumAgeFactors[startStage()]);
   const premium = () => D.plans.reduce((sum, p) => sum + (state.plans[p.id] ? initialPlanPremium(p) : 0), 0);
   const row = (label, value, balance = false) => Math.round(value) === 0 ? '' : `<div class="breakdown-row"><span>${label}</span><b class="${value < 0 ? 'deficit' : 'surplus'}">${fmt(value)}</b></div>`;
-  const topbar = () => `<header class="topbar"><div class="brand-mini"><div class="brand-mark">N</div><div><strong>NANSHAN LifeLab</strong><small>人生風險與收支實驗室</small></div></div><button class="icon-btn" data-action="home">首頁</button></header>`;
+  const topbar = () => `<header class="topbar"><div class="brand-mini"><div class="brand-mark">N</div><div><strong>NANSHAN LifeLab</strong><small>人生風險與收支實驗室</small></div></div><div class="header-actions"><div class="text-size-control" role="group" aria-label="調整文字大小"><span>字級</span>${[['small','小'],['medium','中'],['large','大']].map(([size,label])=>`<button type="button" data-action="text-size" data-size="${size}" aria-label="${label}字級" aria-pressed="${textSize===size}">${label}</button>`).join('')}</div><button class="icon-btn" data-action="home">首頁</button></div></header>`;
   const legal = () => `<div class="notice compact-notice">教育模擬：金額、保費與給付均為遊戲概估，不是市場平均、正式報價或實際理賠。官方商品供進一步了解，與遊戲方案不直接對應；實際投保、續保、保障期限、等待期間及給付依正式條款與審核。遊戲假設人身與房車保障持續有效並扣費，不代表真實商品可終身續保。</div>`;
   const button = (action, text) => `<button class="btn btn-dark btn-block" data-action="${action}">${text}</button>`;
 function photoFor(e){const key=e.id==='peaceful'?(e.age<35?'peace-young':e.age<60?'peace-family':'peace-senior'):(D.eventPhotoMap[e.id]||'hospital');return {...D.eventPhotos[key],key};}
@@ -266,6 +275,7 @@ function art(e){const p=photoFor(e);return `<figure class="event-photo photo-${p
   });
   app.addEventListener('click', ev => {
     const el = ev.target.closest('[data-action]'); if (!el) return;
+    if (el.dataset.action === 'text-size') { applyTextSize(el.dataset.size); return; }
     switch (el.dataset.action) {
       case 'home': home(); break;
       case 'setup': setup(); break;
@@ -276,5 +286,6 @@ function art(e){const p=photoFor(e);return `<figure class="event-photo photo-${p
     }
     window.scrollTo(0, 0);
   });
+  applyTextSize(textSize);
   home();
 })();
